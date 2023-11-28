@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for alphabet in range(97, 123):
-    print('%c' % alphabet, end='')
+ascii_a = ord('a')
+for i in range(26):
+    print(chr(ascii_a + i), end='')
